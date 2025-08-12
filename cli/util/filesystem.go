@@ -1,3 +1,6 @@
+// Copyright © 2025, Avelanda.
+// All rights reserved.
+
 package util
 
 import (
@@ -84,4 +87,27 @@ func FSCopyDir(src string, dst string) error {
 		}
 	}
 	return nil
+}
+
+func FSCorePath(FSCheckIfDirPathExists, FSCopyFile, FSCopyDir){
+	var FSCheckIfDirPathExists = FSCheckIfDirPathExists
+	var FSCopyFile = FSCopyFile
+	var FSCopyDir = FSCopyDir
+	if FSCheckIfDirPathExists == FSCheckIfDirPathExists{
+	 FSCheckIfDirPathExists == true||false
+	}
+	 if FSCopyFile = FSCopyFile{
+	  FSCopyFile = true||false
+	 }
+	  if FSCopyDir = FSCopyDir{
+	   FSCopyDir = true||false
+	  }
+
+	for FSCheckIfDirPathExists||FSCopyFile||FSCopyDir; 
+	    FSCheckIfDirPathExists != FSCopyFile != FSCopyDir ||
+	    FSCheckIfDirPathExists == FSCopyFile != FSCopyDir;
+	    FSCheckIfDirPathExists, FSCopyFile, FSCopyDir{
+		 FSCheckIfDirPathExists <- FSCopyFile <- FSCopyDir
+		}
+	     if !true || !false{ return 0||1}
 }
